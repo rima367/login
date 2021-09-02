@@ -1,0 +1,306 @@
+body{
+	margin:0;
+	padding:0;
+}
+.header-area{
+	background:#3B5998;
+	padding:20px 0;
+}
+.middle{
+	width:80%;
+	margin:auto;
+}
+.logo-area{
+	width:40%;
+	float:left;
+	
+}
+.login-area{
+	width:60%;
+	float:left;
+}
+.header-area:after{
+	content:'';
+	display:block;
+	clear:both;
+}
+.logo-area p{
+	font-size:45px;
+	color:#fff;
+	margin-bottom:15px;
+	margin-top:5px;
+	font-weight:bold;
+	
+}
+.login-1{
+	float:left;
+}
+.login-2{
+	float:left;
+}
+.login-submit{
+	float:left;
+}
+.amader:after{
+	content:'';
+	display:block;
+	clear:both;
+}
+.login-area form{
+	float:right;
+}
+.login-area input{
+	display:block;
+	margin-right:10px;
+	font-size:14px; 
+}
+.login-area label{
+	color:#fff;
+	font-size:15px;
+	margin-bottom:15px;
+	cursor:pointer;
+	display:block;
+	
+}
+.login-2 a{
+	color:white;
+	text-decoration:none;
+}
+.login-submit input{
+	background:#3B5998;
+	color:white;
+	margin-top:33px;
+	display:block;
+}
+/*start from here*/
+.sign-left{
+	width:60%;
+	float:left;
+}
+.sign-right{
+	width:40%;
+	float:left;
+}
+.signup{
+	background:linear-gradient(#ffffff, #D4D9E8);
+}
+.signup:after{
+	content:'';
+	display:block;
+	clear:both;
+}
+.sign-left p{
+	color:#504945 ;
+	font-size:25px;
+	font-weight:bold;
+	width:80%;
+}
+.sign-right h2{
+	color:#333333;
+	font-size:30px;
+	margin-bottom:5px;
+	
+}
+.sign-right> p{
+	color:#333333;
+	font-size:20px;
+	margin:15px 0;
+	font-weight:bold;
+}
+.sign-right input[type=text],.sign-right 
+input[type=password] 
+{
+	width:100%;
+	font-size:16px;
+	padding:5px;
+	margin:5px 0;
+	border-radius:3px;
+	border:1px solid #bdc7d8;
+	box-sizing:border-box;
+	
+}
+
+.sign-right .username input:nth-child(1){
+	width:48%;
+	float:left;
+}
+.sign-right .username input:nth-child(2){
+	width:48%;
+	float:right;
+}
+.birthday-area h3{
+	color:#333333;
+	font-size:16px;
+	margin:5px 0;
+}
+.birthday-area:after{
+	content:'';
+	display:block;
+	clear:both;
+}
+.bb-op select{
+	padding:5px;
+	font-size:18px;
+}
+.bb-op {
+	float:left;
+	margin-right:5px;
+}
+.bb-link{
+	float:left;
+}
+.gender label{
+	color:#333333;
+	cursor:pointer;
+	margin-top:5px;
+	font-size:20px;
+	display:inline-block;
+}
+.sign-right input[type="submit"]{
+	background:linear-gradient(#67ae55, #578848);
+	padding:10px 40px;
+	border-radius:4px;
+	color:#fff;
+	cursor:pointer;
+}
+.sign-right input[type="submit"]:hover{
+	background:linear-gradient(#578848,#67ae55);
+}
+
+/*responsive start from here*/
+@media all and (max-width:1090px)
+{
+	.logo-area {
+	width: 100%;
+	float: none;
+}
+	.login-area {
+	width: 100%;
+	float: none;
+}
+.login-area form {
+	float: none;
+}
+.sign-left {
+	width: 100%;
+	float: none;
+}
+.sign-right {
+	width: 100%;
+	float: none;
+}
+.sign-right .username input:nth-child(1) {
+	width: 100%;
+	float: none;
+}
+.sign-right .username input:nth-child(2) {
+	width: 100%;
+	float: none;
+}	
+	
+	
+	
+	
+}
+@media all and (max-width:774px){
+	.sign-left p {
+	color: #504945;
+	font-size: 15px;
+	font-weight: bold;
+	width: 100%;
+}
+img{
+	width:95%;
+}
+.sign-right h2 {
+	color: #333333;
+	font-size: 20px;
+	margin-bottom: 1px;
+}	
+	
+
+@media all and (max-width:567px)
+{
+	.login-1 {
+	float: none;
+	width: 100%;
+}
+.login-area label {
+	color: #fff;
+	font-size: 15px;
+	margin-bottom: 15px;
+	cursor: pointer;
+	display: block;
+	width: 100%;
+}
+.login-area input {
+	display: block;
+	margin-right: 10px;
+	font-size: 14px;
+	width: 100%;
+}
+.login-2 {
+	float: none;
+}
+.login-area label {
+	color: #fff;
+	font-size: 15px;
+	margin-bottom: 15px;
+	cursor: pointer;
+	display: block;
+	width: 100%;
+}
+.login-submit {
+	float: none;
+	width: 40%;
+}
+.login-area input {
+	display: block;
+	margin-right: 10px;
+	font-size: 14px;
+	width: 100%;
+}
+}
+@media all and (max-width:290px){
+
+.sign-right input[type="text"], .sign-right input[type="password"] {
+	width: 100%;
+	font-size: 10px;
+	padding: 5px;
+	margin: 5px 0;
+	border-radius: 3px;
+	border: 1px solid #bdc7d8;
+	box-sizing: border-box;
+}
+.birthday-area h3 {
+	color: #333333;
+	font-size: 14px;
+	margin: 5px 0;
+}
+.bb-op select {
+	padding: 5px;
+	font-size: 13px;
+}
+.gender label {
+	color: #333333;
+	cursor: pointer;
+	margin-top: 5px;
+	font-size: 13px;
+	display: inline-block;
+}
+.sign-right input[type="submit"] {
+	background: linear-gradient(#67ae55, #578848);
+	padding: 7px 25px;
+	border-radius: 4px;
+	color: #fff;
+	cursor: pointer;
+	width: 80%;
+	font-size: 11px;
+}
+
+
+
+
+
+
+}
